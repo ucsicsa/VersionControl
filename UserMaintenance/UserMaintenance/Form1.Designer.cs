@@ -34,6 +34,7 @@
             this.lblFirstName = new System.Windows.Forms.Label();
             this.txtLastName = new System.Windows.Forms.TextBox();
             this.txtFirstName = new System.Windows.Forms.TextBox();
+            this.btnFW = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnAdd
@@ -87,11 +88,22 @@
             this.txtFirstName.Size = new System.Drawing.Size(165, 22);
             this.txtFirstName.TabIndex = 5;
             // 
+            // btnFW
+            // 
+            this.btnFW.Location = new System.Drawing.Point(347, 283);
+            this.btnFW.Name = "btnFW";
+            this.btnFW.Size = new System.Drawing.Size(90, 50);
+            this.btnFW.TabIndex = 6;
+            this.btnFW.Text = "button2";
+            this.btnFW.UseVisualStyleBackColor = true;
+            this.btnFW.Click += new System.EventHandler(this.btnFW_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(550, 381);
+            this.Controls.Add(this.btnFW);
             this.Controls.Add(this.txtFirstName);
             this.Controls.Add(this.txtLastName);
             this.Controls.Add(this.lblFirstName);
@@ -113,6 +125,7 @@
         private System.Windows.Forms.Label lblFirstName;
         private System.Windows.Forms.TextBox txtLastName;
         private System.Windows.Forms.TextBox txtFirstName;
+        private System.Windows.Forms.Button btnFW;
     }
 }
 
