@@ -35,6 +35,7 @@
             this.txtLastName = new System.Windows.Forms.TextBox();
             this.txtFirstName = new System.Windows.Forms.TextBox();
             this.btnFW = new System.Windows.Forms.Button();
+            this.btnDel = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnAdd
@@ -90,7 +91,7 @@
             // 
             // btnFW
             // 
-            this.btnFW.Location = new System.Drawing.Point(347, 283);
+            this.btnFW.Location = new System.Drawing.Point(340, 199);
             this.btnFW.Name = "btnFW";
             this.btnFW.Size = new System.Drawing.Size(90, 50);
             this.btnFW.TabIndex = 6;
@@ -98,11 +99,22 @@
             this.btnFW.UseVisualStyleBackColor = true;
             this.btnFW.Click += new System.EventHandler(this.btnFW_Click);
             // 
+            // btnDel
+            // 
+            this.btnDel.Location = new System.Drawing.Point(340, 279);
+            this.btnDel.Name = "btnDel";
+            this.btnDel.Size = new System.Drawing.Size(90, 50);
+            this.btnDel.TabIndex = 7;
+            this.btnDel.Text = "button3";
+            this.btnDel.UseVisualStyleBackColor = true;
+            this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(550, 381);
+            this.Controls.Add(this.btnDel);
             this.Controls.Add(this.btnFW);
             this.Controls.Add(this.txtFirstName);
             this.Controls.Add(this.txtLastName);
@@ -126,6 +138,7 @@
         private System.Windows.Forms.TextBox txtLastName;
         private System.Windows.Forms.TextBox txtFirstName;
         private System.Windows.Forms.Button btnFW;
+        private System.Windows.Forms.Button btnDel;
     }
 }
 

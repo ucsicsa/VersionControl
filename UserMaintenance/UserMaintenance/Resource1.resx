@@ -126,4 +126,7 @@
   <data name="FW" xml:space="preserve">
     <value>Fájlba Írás</value>
   </data>
+  <data name="DEL" xml:space="preserve">
+    <value>Törlés</value>
+  </data>
 </root>
